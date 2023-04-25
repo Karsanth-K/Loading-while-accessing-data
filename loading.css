@@ -1,0 +1,47 @@
+body{
+    background-image: url('https://i.pinimg.com/originals/7e/2a/eb/7e2aeb1567e91bfc2404cecca6aceecd.gif');
+    background-repeat: no-repeat;
+    background-size:50%;
+    background-color: black;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loaded{
+    border-radius: 5%;
+    background-color: rgba(205, 205, 205, 0.715);
+    display: flex;
+    gap:1%;
+    flex-direction: column;
+    justify-content: auto;
+    align-items: center;
+    box-shadow: 5px 5px 5px black;
+}
+.loaded h1{
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.724);
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px black;
+    padding: 1%;
+    padding-inline: 2%;
+    border-radius: 10px;
+}
+.load_image{
+    margin: 10px;
+    box-shadow: 0 0 20px  black;
+    width: 600px;
+    height: 400px;
+    border-radius: inherit;
+}
+.load_image #loadgif{
+    position: absolute;
+    width: 1%;
+    height: 2%;
+    margin: 1%;
+}
+.load_image #img{
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+}
